@@ -4,5 +4,8 @@ spring:
     port: 5672
     username: ljl
     password: ljl
+management:
+  security:
+    enabled: false
 # spring.rabbitmq.username=
 # spring.rabbitmq.password=
